@@ -1,6 +1,10 @@
 {
   "name": "firestore-meilisearch",
   "version": "0.1.5",
+  "license": "MIT",
+  "engines": {
+    "node": ">=15.0.0"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -15,9 +19,6 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
-  },
-  "engines": {
-    "node": ">=14.0.0"
   },
   "main": "lib/index.js",
   "dependencies": {
